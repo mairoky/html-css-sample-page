@@ -1,0 +1,104 @@
+/* General CSS */
+
+body {
+	padding-top: 50px;
+	font-family: Arial, sans-serif;
+	color: #333456;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h1, h2 {
+	margin: 20px 0 10px 0;
+	font-weight: normal;
+}
+p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 21px;
+}
+.main-container {
+	width: 100%;
+	margin: 0 auto;
+
+}
+.single-row {
+	width: 100%;
+}
+
+/* header */
+.col-left {
+	width: 63%;
+}
+.col-left img {
+	width: 100%;
+	border-radius: 7px;
+}
+.col-right {
+	width: 32%;
+}
+.col-left, .col-right {
+	float: left;
+	padding: 0 15px;
+}
+.btn {
+	padding: 8px 12px;
+	font-size: 18px;
+	line-height: 28px;
+	border-radius: 7px;
+	border: 1px solid #337;
+	color: #337;
+	background-color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn:hover {
+	color: white;
+	background-color: #337;
+}
+.clear-fix {
+	clear: both;
+}
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #337;
+}
+
+/* Features */
+
+.col-one, .col-two, .col-three {
+	padding: 0 15px;
+	width: 30%;
+	float: left;
+}
+
+.btn-fe {
+	padding: 6px 10px;
+	color: #337;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: normal;
+	border: 1px solid #337;
+	border-radius: 6px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+.btn-fe:hover {
+	color: white;
+	background-color: #337;
+	border-color: white;
+}
+
+/* Footer */
+.col-footer {
+	padding: 30px 0;
+	text-align: center;
+}
